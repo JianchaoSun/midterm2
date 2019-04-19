@@ -54,7 +54,7 @@ private:
 
     }
 public:
-    Child(std::string n,int a, char s,std::string mn,std::string dn):Human(n,a,s),momName(mn),dadName(dn){
+    Child(std::string n,int a, char s,std::string mn,std::string dn):Human(n,a,s),momName(dn),dadName(mn){
         allowance = 0;
     }
     int getAllowance() const{
